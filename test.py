@@ -1,4 +1,0 @@
-str = "hello"
-
-
-print(str)
