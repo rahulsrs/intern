@@ -1,4 +1,3 @@
-
 def ispallindrome(str):
     l = len(str)
     for i in range(len(str)//2):
@@ -8,5 +7,5 @@ def ispallindrome(str):
             return False
     return True    
 
-print(ispallindrome(""))
+print(ispallindrome("ertre"))
 
