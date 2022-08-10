@@ -1,0 +1,158 @@
+*{
+    font-family: inter;
+}
+html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: inter;
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
+}
+h1,p{
+    margin: 0%;
+    padding: 0%;
+}
+.center{
+    text-align: center;
+}
+.centered{
+    margin:auto;
+}
+.block {
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #3333cc;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 100px;
+}
+#welcome-section{
+    display: flex;
+    width: 100%;
+    height: 801px;
+    background-image: linear-gradient(-50deg,#614385,#516395);
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    width: 40%;
+    display: flex;
+    float: right;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-right: 30px;
+}
+li{
+    display: block;
+    font-size: 2em;
+    margin: auto;
+}
+li a{
+    text-decoration: none;
+    color: #878787;
+    font-family: inter;
+}
+#welcome-section h1{
+    font-size: 3em;
+    font-family: inter;
+    color: #5eb0f2;
+}
+#welcome-section p{
+    font-size: 2em;
+    font-family: inter;
+    
+}
+#projects{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(-50deg,#000428,#004e92);
+    }
+
+#projects h1{
+    position: relative;
+    display: block;
+    text-align: center;
+    top:15%;
+    color:#cfcbc2;
+    font-size: xx-large;
+}
+.flex{
+    display: flex;
+    margin:200px auto;
+    width: 100%;
+    justify-content:space-evenly;
+    object-fit: fill;
+}
+.img-cont{
+    display: block;
+    width: 400px;
+    height: 350px;
+    background-color: maroon;
+    text-align: center;
+}
+.flex img{  
+    width:400px;
+    height:300px;
+}
+.img-cont p{
+    color:#cfcbc2;
+    padding: 10px;
+    font-size: 1.2em;
+    
+}
+a{
+    text-decoration: none;
+}
+#contact{
+width: 100;
+height: 250px;
+background-color:#202020;
+}
+#contact h1{
+    position: relative;
+    color: #cfcbc2;
+    text-align: center;
+    top:40px;
+    font-size: 2em;
+}
+.flexcont{
+    display: flex;
+    width: 75%;
+    margin: 100px auto;
+    justify-content: space-evenly;
+}
+.flexcont a{
+    text-decoration: none;
+    color: #cfcbc2;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 700px){
+    *{
+        font-size:1em;
+    }
+    .img{
+        width:0;
+        height:0;
+    }
+    #nav-bar{
+        margin: auto;
+        width:100%;
+        height:100px;
+        justify-content:center;
+        text-align:center;   
+    }
+    #nav-bar a{
+        padding:0 20px;
+    }
+}

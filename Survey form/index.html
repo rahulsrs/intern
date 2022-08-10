@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank You</p>
+  </head>
+  <body>
+    <div>
+    <form id="survey-form"> 
+        <fieldset>
+        <label id="name-label">Enter first name:<input type="text" id="name" placeholder="enter name" value="name" required></label>
+        <label id="email-label">Enter email:<input type="email" id="email" placeholder="enter email" value="email" required></label>
+        <label id="number-label">Enter number:<input type="number" id="number" placeholder="enter number" value="number" min=0 max=100></label>
+
+        </fieldset>
+        <fieldset>
+            <label>How did you hear about us?
+            <select id="dropdown">
+                <option>Facebook</option>
+                <option>Instagram</option>
+            </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>
+                Are you a citizen of the ?
+            </label>
+            <label ><input class="inline" type="radio" name="radio" value="yes">Yes</label>
+            <label><input class="inline" type="radio" name="radio" value="no">No</label>    
+        </fieldset>
+        <fieldset>
+          <label>Do your interests include:</label>
+          
+          <label for="anime"><input type="checkbox" id="anime" value="anime" class="inline">Anime</label>
+          
+          <label><input type="checkbox" id="gaming" value="gaming" class="inline">Gaming</label>
+          <label>Bio</label>
+        <textarea value="add something about yourself"></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit">
+        
+    
+    
+    </form>
+    </div>
+  </body>
+</html>
